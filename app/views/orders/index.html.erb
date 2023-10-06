@@ -1,0 +1,26 @@
+<!-- app/views/orders/index.html.erb -->
+<div class="orders">
+<h1>Your Purchase History</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Product Image</th>
+      <th>Product</th>
+      <th>Price</th>
+      <th>Purchase Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @orders.each do |order| %>
+      <tr>
+        <td><%= image_tag order.product.image , width:"130px",height:"100px" %></td>
+        <td><%= order.product.name %></td>
+        <td><%= order.product.price %></td>
+        <td><%= order.created_at.to_date %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+</div>
+

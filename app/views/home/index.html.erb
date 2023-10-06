@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="assets/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+</head>
+
+<body>
+    
+    <!--ROW-->
+    <div class="fluid-container">
+        <div class="row  rounded">
+            <div class="col rounded">
+                <div id="carouselExampleIndicators" class="carousel slide shadow-sm" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item iteam1 active "
+                            style=" background-image:url(assets/vecteezy_coin-stack-with-young-green-sprout-on-top-business-success_6305489_746.jpg);background-position: bottom;background-repeat: no-repeat; background-size: cover;">
+                            <div class="container new-classadd">
+                                <div class="row">
+                                    <div class="col-md-10 col-lg-7">
+                                        <h1 data-caption-animate="fadeInUp" data-caption-delay="100"
+                                            class="not-animated">
+                                            Flawless Design &amp; Useful Features</h1>
+                                        <p class="lead not-animated" data-caption-animate="fadeInUp"
+                                            data-caption-delay="250">This theme offers everything you may need - from
+                                            responsiveness to free updates and even more!</p><a
+                                            class="button button-lg button-primary button-icon not  button-icon-left once-added not-animated"
+                                            href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Buy It
+                                            Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item iteam2"
+                            style=" background-image:url(assets/money.jpg);background-position: bottom;background-repeat: no-repeat; background-size: cover;">
+                            <div class="container new-classadd">
+                                <div class="row">
+                                    <div class="col-md-10 col-lg-7">
+                                        <h1 data-caption-animate="fadeInUp" data-caption-delay="100"
+                                            class="not-animated">
+                                            Flawless Design &amp; Useful Features</h1>
+                                        <p class="lead not-animated" data-caption-animate="fadeInUp"
+                                            data-caption-delay="250">This theme offers everything you may need - from
+                                            responsiveness to free updates and even more!</p><a
+                                            class="button button-lg button-primary button-icon button-icon-left added-class-btn not-animated"
+                                            href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Buy It
+                                            Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item iteam3"
+                            style=" background-image:url(assets/man-hand-holding-coin-with-many-coins-in-bottle-and-a-pile-on-white-background-money-growing-concept-and-sustainable-investment-business-success-and-financial-concept-banking-and-economy-idea-free-photo.jpg);background-position:bottom; background-repeat: no-repeat; background-size: cover;">
+                            <div class="container new-classadd">
+                                <div class="row">
+                                    <div class="col-md-10 col-lg-7">
+                                        <h1 data-caption-animate="fadeInUp" data-caption-delay="100"
+                                            class="not-animated">
+                                            Flawless Design &amp; Useful Features</h1>
+                                        <p class="lead not-animated" data-caption-animate="fadeInUp"
+                                            data-caption-delay="250">This theme offers everything you may need - from
+                                            responsiveness to free updates and even more!</p><a
+                                            class="button button-lg button-primary button-icon button-icon-left not-animated"
+                                            href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Buy It
+                                            Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev justify-content-start px-5" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <p aria-hidden="true">&#10094;</p>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next justify-content-end px-5" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <p aria-hidden="true">&#10095;</p>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="fluid-container">
+        <section class="section section-negative">
+            <div class="container section-negative-inner">
+                <div class="row row-30 justify-content-center row-flex">
+                    <div class="col-md-6 col-lg-4  boxes">
+                        <div class="counter-boxed">
+                            <div class="counter-boxed-top">
+                                <div class="counter-boxed-media"><img src="progress-1-92x84.png" alt="" width="92"
+                                        height="84">
+                                </div>
+                                <div class="counter-boxed-title">
+                                    <div class="subtitle">More than</div>
+                                    <div class="counter-wrap">
+                                        <div class="counter heading-2 animated">23754</div>
+                                    </div>
+                                    <div class="title heading-5">Issued Cards</div>
+                                </div>
+                            </div>
+                            <div class="counter-boxed-body">
+                                <div class="exeption">Our bank is an acknowledged leader in credit card distribution. We
+                                    issue more than 5000 cards every year.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 boxes">
+                        <div class="counter-boxed">
+                            <div class="counter-boxed-top">
+                                <div class="counter-boxed-media"><img src="progress-2-92x84.png" alt="" width="92"
+                                        height="84">
+                                </div>
+                                <div class="counter-boxed-title">
+                                    <div class="subtitle">Up to</div>
+                                    <div class="counter-wrap">
+                                        <div class="counter heading-2 animated">30</div>
+                                        <div class="heading-2">%</div>
+                                    </div>
+                                    <div class="title heading-5">Cashback</div>
+                                </div>
+                            </div>
+                            <div class="counter-boxed-body">
+                                <div class="exeption">We offer amazing amount of cashback for payments made with one of
+                                    our
+                                    credit cards - Blue, Green, or Orange.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4  boxes">
+                        <div class="counter-boxed">
+                            <div class="counter-boxed-top">
+                                <div class="counter-boxed-media"><img src="progress-3-92x84.png" alt="" width="92"
+                                        height="84">
+                                </div>
+                                <div class="counter-boxed-title">
+                                    <div class="subtitle">Up to</div>
+                                    <div class="counter-wrap">
+                                        <div class="counter heading-2 animated">25</div>
+                                        <div class="heading-2">%</div>
+                                    </div>
+                                    <div class="title heading-5">for Deposit</div>
+                                </div>
+                            </div>
+                            <div class="counter-boxed-body">
+                                <div class="exeption">Dot Bank offers various deposit offers in all international
+                                    currencies
+                                    with interest rate up to 25% for all regular clients.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mobile-cls">
+                <div class="row added-class">
+                    <div class="col-md-10 col-xl-7">
+                        <h2>
+                            <span>The Best Banking Choice</span>
+                        </h2>
+                        <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae a ex cum sequi
+                            libero veniam,
+                            possimus veritatis incidunt provident tempora voluptatibus rerum quo et nulla maxime ipsum
+                            bjklom</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mobile-text">
+                        <div class="mobile-text-div">
+                            <h4>various type</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, exercitationem!</p>
+                        </div>
+                        <div class="mobile-text-div">
+                            <h4>various type</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, exercitationem!</p>
+                        </div>
+                        <div class="mobile-text-div">
+                            <h4>various type</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, exercitationem!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 phone-image">
+                        <img src="index-1-1-309x582.png">
+                    </div>
+                    <div class="col-lg-4 mobile-text">
+                        <div class="mobile-text-div">
+                            <h4>various type</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, exercitationem!</p>
+                        </div>
+                        <div class="mobile-text-div">
+                            <h4>various type</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, exercitationem!</p>
+                        </div>
+                        <div class="mobile-text-div">
+                            <h4>various type</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, exercitationem!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div> -->
+    </section>
+    </div>
+    <div class="fluid-container">
+    <div class="container">
+        <h2>Carousel with 6 Cards</h2>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner carousel-inner2">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="assets/images (2).jpeg" alt="Card 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 1</h5>
+                                    <p class="card-text">this is cart 1</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="assets/images (2).jpeg" alt="Card 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 2</h5>
+                                    <p class="card-text">This is card 2.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="assets/man-hand-holding-coin-with-many-coins-in-bottle-and-a-pile-on-white-background-money-growing-concept-and-sustainable-investment-business-success-and-financial-concept-banking-and-economy-idea-free-photo.jpg"
+                                    alt="Card 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 3</h5>
+                                    <p class="card-text">This is card 3.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="assets/istockphoto-1269691725-612x612.jpg" alt="Card 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 4</h5>
+                                    <p class="card-text">This is card 4.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="assets/istockphoto-1269691725-612x612.jpg" alt="Card 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 5</h5>
+                                    <p class="card-text">This is card 5.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="assets/istockphoto-1367970117-612x612.jpg" alt="Card 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 6</h5>
+                                    <p class="card-text">This is card 6.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+ <div class="fluid-container card-fluid-container">
+    <div class="container card-container cards-container ">
+        <div class="row row-for-content">
+            <div class="col-lg-6 all-card">
+                <div>
+                    <div class="card-div">
+                        <h2 class="card-heading">WHat we offer</h2>
+                    </div>
+                    <div class="card-second-div">
+                        <h2 class="card-second-heading">Unlock financial freedom with smart choice</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aspernatur possimus, dolores
+                        maxime deserunt molestias perspiciatis laboriosam soluta architecto hic nemo libero magnam. Quis
+                        quo a perspiciatis quisquam aperiam? Deleniti.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <% @products.each do |item| %>
+            <div class="col-lg-3 col-md-6 all-card ">
+                <div class="maincontainer">
+                    <div class="back">
+                        <h2><%= item.name%></h2>
+                        <p><%= item.description%></p>
+                        <%= button_to 'Buy now!', checkout_create_path, params: {id: item.id, image:item.image}, remote: true , class: 'card-button' %>
+                        <%= form_with(url: cart_items_path, method: :post) do |form| %>
+                        <%= form.hidden_field :product_id, value: item.id %>
+                        <%= form.submit 'Add to Cart' %>
+                        <% end %>
+                    </div>
+                    <div class="front product-card shadow-lg mb-5 bg-white rounded">
+                        <div class="image">
+                       
+                         <%= image_tag item.image , class: 'shadow-lg bg-white rounded', height: '100%' %>   
+                            <h2>Product Card</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <% end %>
+
+            
+          
+    
+    </div>
+    
+    </div>
+</div>
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                        <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i
+                                    class="fa fa-angle-double-right"></i>Imprint</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i
+                                    class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                </hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a
+                        Registered MSP/ISO of Elavon, Inc. Georgia india</p>
+                    <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com"
+                            target="_blank">BESTTECH</a></p>
+                </div>
+                </hr>
+            </div>
+        </div>
+    </section>
+    <!-- ./Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+   
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const buyButtons = document.querySelectorAll(".buy-button");
+            const addToCartButtons = document.querySelectorAll(".add-to-cart-button");
+
+            buyButtons.forEach(function (button) {
+                button.addEventListener("click", function () {
+                    const productName = this.parentElement.querySelector("h2").textContent;
+                    addToCart(productName);
+                });
+            });
+
+            addToCartButtons.forEach(function (button) {
+                button.addEventListener("click", function () {
+                    const productName = this.parentElement.querySelector("h2").textContent;
+                    addToCart(productName);
+                });
+            });
+            function addToCart(productName) {
+                const cart = JSON.parse(localStorage.getItem("cart")) || [];
+                cart.push(productName);
+                localStorage.setItem("cart", JSON.stringify(cart));
+                alert("Product added to cart!");
+            }
+        });
+        (function () {
+            (document).scroll(function () {
+                var nav = (".navbar-fixed-top");
+                nav.toggleClass('scrolled', (this).scrollTop() > nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+<h2>Product</h2>
+<div class="products">
+  <% @products.each do |item| %>
+    <div class="product">
+      <%= image_tag(item.image) %>
+      <h3><%= item.name %></h3>
+      <p><%= item.description %></p>
+      <p>$<%= item.price %></p>
+    </div>
+  <% end %>
+</div>
